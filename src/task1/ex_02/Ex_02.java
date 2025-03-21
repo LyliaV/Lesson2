@@ -33,7 +33,7 @@ public class Ex_02 {
             return;
         };
 
-        double squareСircle = Math.PI * Math.pow( radius, 21 );
+        double squareСircle = Math.PI * Math.pow( radius, 2 );
 
         System.out.print("Площадь круга: " + squareСircle);
 
