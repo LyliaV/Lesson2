@@ -9,7 +9,7 @@ public class Ex_01 {
 
     public void run() {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите температуру в градусах Цельсия: ");
+        System.out.print("Введите температуру в градусах Цельсия1: ");
 
         double celsius = scanner.nextDouble();
         double fahrenheit = celsius * 9 / 5 + 32;
