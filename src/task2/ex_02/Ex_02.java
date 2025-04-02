@@ -1,4 +1,4 @@
-package task1.ex_02;
+package task2.ex_02;
 
 import java.util.Scanner;
 import java.util.InputMismatchException;
@@ -31,11 +31,11 @@ public class Ex_02 {
         } catch (InputMismatchException e) {
             System.out.print("Введите число!");
             return;
-        };
+        }
 
-        double squareСircle = Math.PI * Math.pow( radius, 2 );
+        double squareCircle = Math.PI * Math.pow( radius, 2 );
 
-        System.out.print("Площадь круга: " + squareСircle);
+        System.out.print("Площадь круга: " + squareCircle);
 
     }
 
